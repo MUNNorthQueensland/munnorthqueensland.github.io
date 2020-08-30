@@ -1,1 +1,1 @@
-# MUNNQEmailAssets
+# MUNNQ
