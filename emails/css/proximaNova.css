@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('https://raw.githubusercontent.com/elliakou/proxima-nova-web-fonts/master/fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff2') format('woff2'),
+    src: /*url('https://raw.githubusercontent.com/elliakou/proxima-nova-web-fonts/master/fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff2') format('woff2'),*/
          url('https://raw.githubusercontent.com/elliakou/proxima-nova-web-fonts/master/fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff') format('woff'),
          url('https://raw.githubusercontent.com/elliakou/proxima-nova-web-fonts/master/fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf') format('truetype');
     font-weight: normal;
