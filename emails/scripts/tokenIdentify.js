@@ -9,7 +9,7 @@ String.prototype.hashCode = function(){
 	return hash;
     }
 
-TokenIdentifier(token, urlWithoutParams)
+function TokenIdentifier(token, urlWithoutParams)
 {
     if (token == urlWithoutParams.hashCode())
     {
