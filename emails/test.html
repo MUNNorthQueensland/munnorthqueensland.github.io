@@ -151,15 +151,8 @@
     </o:OfficeDocumentSettings>
   </xml>
   <![endif]-->
-  <script type="text/javascript" src="http://munnorthqueensland.github.io/emails/scripts/tokenIdentify.js"></script>
   <script>
-      
-    const urlParams = new URLSearchParams(window.location.search);
-    token = urlParams.get('token');
-    urlLocation = window.location.href.split('?')[0];
-    
-    TokenIdentifier(token, urlLocation);
-     
+    String.prototype.hashCode=function(){var o=0;if(0==this.length)return o;for(i=0;i<this.length;i++)char=this.charCodeAt(i),o=(o<<5)-o+char,o&=o;return o};const urlParams=new URLSearchParams(window.location.search);token=urlParams.get("token"),urlLocation=window.location.href.split("?")[0],token==urlLocation.hashCode()?console.log("yes"):window.location.replace("http://munnorthqueensland.github.io/404");   
     </script> 
 
 </head>
